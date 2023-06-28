@@ -7,7 +7,7 @@ fn main() {
     // Read command-line arguments
     let args: Vec<String> = env::args().collect();
     if args.len() < 3 {
-        println!("Usage: ./program <glob_pattern> <last_digit>");
+        println!("Usage: ./splitfiles <glob_pattern> <0-9>");
         return;
     }
 
